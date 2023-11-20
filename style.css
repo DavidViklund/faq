@@ -1,0 +1,12 @@
+html {
+  background: lightgoldenrodyellow;
+  color: #19171c;
+}
+
+.panel .description {
+  display: none;
+}
+
+.panel .title.active + .description {
+  display: block;
+}
